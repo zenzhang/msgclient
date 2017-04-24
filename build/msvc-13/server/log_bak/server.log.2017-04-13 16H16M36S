@@ -1,0 +1,121 @@
+<2017-04-13 16:14:00>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:80 ec:操作成功完成。
+<2017-04-13 16:14:07>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-13 16:14:07>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:102 ec:操作成功完成。
+<2017-04-13 16:14:07>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:07>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:07>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 16:14:07>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 16:14:07>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:07>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:13>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang1
+<2017-04-13 16:14:13>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:102 ec:操作成功完成。
+<2017-04-13 16:14:13>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:13>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:13>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 16:14:13>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 16:14:13>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:13>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:16>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang1
+<2017-04-13 16:14:16>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:58 ec:操作成功完成。
+<2017-04-13 16:14:16>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:16>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:16>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 16:14:16>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 16:14:16>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:16>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:20>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang2
+<2017-04-13 16:14:20>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:102 ec:操作成功完成。
+<2017-04-13 16:14:20>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:20>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:20>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 16:14:20>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 16:14:20>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:20>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 16:14:25>
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang
+<2017-04-13 16:14:30>
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang1
+<2017-04-13 16:14:35>
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang2

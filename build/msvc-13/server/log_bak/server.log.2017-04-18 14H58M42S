@@ -1,0 +1,60 @@
+<2017-04-18 14:56:37>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:8080 ec:操作成功完成。
+<2017-04-18 14:56:42>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:56:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:56:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:56:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:25>
+[EVENT] [HttpSession] [local_process] path:/login?name=aaa
+<2017-04-18 14:57:25>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:121 ec:操作成功完成。
+<2017-04-18 14:57:25>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:57:25>
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:57:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:33>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:37>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:42>
+[EVENT] [UserManager] [handle_timer] enter
+[EVENT] [UserManager] [handle_timer] timeout user:aaa
+<2017-04-18 14:57:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:57:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:18>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:32>
+[EVENT] [UserManager] [handle_timer] enter

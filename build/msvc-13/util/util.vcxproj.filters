@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpClient.cpp">
+      <Filter>protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpHead.cpp">
+      <Filter>protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpPacket.cpp">
+      <Filter>protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpProxy.cpp">
+      <Filter>protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpProxy2.cpp">
+      <Filter>protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\Util.cpp" />
+    <ClCompile Include="..\..\..\src\util\Version.cpp" />
+    <ClCompile Include="..\..\..\src\util\stream\Sink.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\stream\Source.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\stream\ZlibStream.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\CatalogNode.cpp">
+      <Filter>dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\CatalogReg.cpp">
+      <Filter>dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\DataView.cpp">
+      <Filter>dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\DataViewProxy.cpp">
+      <Filter>dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\Node.cpp">
+      <Filter>dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\MessageBase.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\MessageSocket.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\daemon\Daemon.cpp">
+      <Filter>daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\daemon\detail\ModuleRegistry.cpp">
+      <Filter>daemon\detail</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpChunkedSocket.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpClient.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpError.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpFieldConnection.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpFieldRange.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpHead.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpPacket.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpProxy.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpProxyManager.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpRequest.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpResponse.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpSocket.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpStringField.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BasicArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\JsonIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BasicIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BasicOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BigEndianBinaryIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BigEndianBinaryOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BinaryIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BinaryOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\LittleEndianBinaryOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\LittleEndianBinaryIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\NetBinaryOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\NetBinaryIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\StreamOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\StreamIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\TextOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\TextIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\XmlIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\ConsoleOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\ConsoleIArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\JsonOArchive.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Optional.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Url.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\UtcTime.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\deque.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\list.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\map.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\set.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\string.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\utility.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\vector.h">
+      <Filter>serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Array.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Collection.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\ErrorCode.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\NetName.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\NumberBits24.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\NVPair.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Serialization.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\SplitFree.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\SplitMember.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Uuid.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\VariableNumber.h">
+      <Filter>serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\Message.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\Message.hpp">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageBase.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageData.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageDefine.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageHelper.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageParser.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageSocket.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageSocket.hpp">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\MessageTraits.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\smart_ptr\RefenceFromThis.h">
+      <Filter>smart_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\Base.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\Chunked.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\ChunkedBase.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\ChunkedSink.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\ChunkedSource.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\Dual.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\Sink.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\Socket.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\Source.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\StlStream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\StreamBuffers.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\StreamHandler.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\StreamTransfer.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\TcpSocket.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\UdpSocket.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\ZipError.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\ZlibStream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\detail\transfer_buffers.h">
+      <Filter>stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\Define.h" />
+    <ClInclude Include="..\..\..\include\util\Name.h" />
+    <ClInclude Include="..\..\..\include\util\RefenceFromThis.h" />
+    <ClInclude Include="..\..\..\include\util\Util.h" />
+    <ClInclude Include="..\..\..\include\util\Version.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\CatalogNode.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\CatalogReg.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\Data.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataNode.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataSerialize.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataView.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataViewError.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataViewProxy.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\Node.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\NodeWrap.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\PacketDataView.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\Table.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\WrapData.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\WrapObject.h">
+      <Filter>dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BufferCopy.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\Buffers.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersBufferIterator.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersByteIterator.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersCompare.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersCopy.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersFind.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BufferSize.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersPosition.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersSize.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\CycleBuffers.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\SnapshotBuffer.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\StlBuffer.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\StreamBuffer.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\SubBuffers.h">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\Daemon.h">
+      <Filter>daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\Module.h">
+      <Filter>daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\impl\Daemon.h">
+      <Filter>daemon\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\detail\Module.h">
+      <Filter>daemon\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\detail\ModuleId.h">
+      <Filter>daemon\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\detail\ModuleRegistry.h">
+      <Filter>daemon\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpsSocket.h">
+      <Filter>protocol\http</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{77cdce2f-f394-48d6-8a20-d45aa71185cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\http">
+      <UniqueIdentifier>{38fb929c-79c5-4cf7-84ae-5ac3bb191e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="archive">
+      <UniqueIdentifier>{4d499563-7796-4e2b-8fb6-5779574cdcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serialization">
+      <UniqueIdentifier>{03e16f83-a69b-4197-b8d4-e9617e8eec82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serialization\stl">
+      <UniqueIdentifier>{31712427-f647-4ff0-ab82-b0364cc838a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smart_ptr">
+      <UniqueIdentifier>{23f2a986-0e28-499a-a693-fc816ba3dd73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream">
+      <UniqueIdentifier>{986ea646-cbdb-43de-b671-4bd099084c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\detail">
+      <UniqueIdentifier>{862dba6e-ef3e-4db2-976c-4673ae0c1ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataview">
+      <UniqueIdentifier>{c1339ca5-c9d3-4254-ab25-72e8e46f5ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buffers">
+      <UniqueIdentifier>{e44de31d-27e9-4ce1-8cec-69ddd98e95f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daemon">
+      <UniqueIdentifier>{aeb3410a-8d47-4f9d-a36b-41b2967de347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daemon\impl">
+      <UniqueIdentifier>{951a65eb-2c9d-44f2-876e-7acea12074f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daemon\detail">
+      <UniqueIdentifier>{0e06a763-9234-4de3-8b3c-9d92859afe64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

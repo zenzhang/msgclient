@@ -1,0 +1,197 @@
+<2017-04-14 10:48:00>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:80 ec:操作成功完成。
+<2017-04-14 10:48:04>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-14 10:48:04>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:125 ec:操作成功完成。
+<2017-04-14 10:48:04>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 10:48:04>
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 10:48:04>
+[EVENT] [StreamSDK] [OnRZClientRoutePacket] host:127.0.0.1 port:17001
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:48:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:34>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:48:35>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:39>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:48:40>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:44>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:48:45>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:49>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:48:50>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:54>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:48:55>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:48:59>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:49:00>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:04>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:49:05>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:09>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:49:10>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:14>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:49:15>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:19>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:49:20>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:25>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:30>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:31>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-14 10:49:31>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:81 ec:操作成功完成。
+<2017-04-14 10:49:31>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 10:49:31>
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 10:49:35>
+[EVENT] [UserManager] [handle_timer] enter
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang
+<2017-04-14 10:49:41>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:45>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:50>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:49:55>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:00>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:01>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-14 10:50:01>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:125 ec:操作成功完成。
+<2017-04-14 10:50:01>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 10:50:01>
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 10:50:01>
+[EVENT] [StreamSDK] [OnRZClientRoutePacket] host:127.0.0.1 port:17001
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:05>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:06>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:10>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:11>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:15>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:16>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:20>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:21>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:25>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:26>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:30>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:31>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:35>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:36>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:40>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:41>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:45>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:46>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:51>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:51>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:50:55>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:50:56>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:00>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:01>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:05>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:06>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:10>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:11>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:16>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:16>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:21>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:21>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:25>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:26>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:30>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:31>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:35>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:36>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:40>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:41>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang
+<2017-04-14 10:51:45>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 10:51:46>
+[EVENT] [UserManager] [OnKeeplivePacket] name:zenzhang

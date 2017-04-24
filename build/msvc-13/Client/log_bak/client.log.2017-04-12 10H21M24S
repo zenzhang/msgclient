@@ -1,0 +1,7 @@
+<2017-04-12 10:15:23>
+[EVENT] [StreamSDK] Streamsdk ready.
+[EVENT] [StreamSDK] [start_server] Call
+[DEBUG] [Daemon] [start] beg
+[EVENT] [Daemon] starting module NetCheck
+[EVENT] [Daemon] starting module UdpManager
+[DEBUG] [Daemon] [start] end

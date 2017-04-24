@@ -1,0 +1,140 @@
+<2017-04-13 11:07:47>
+[EVENT] [StreamSDK] Streamsdk ready.
+[EVENT] [StreamSDK] [start_server] Call
+[DEBUG] [Daemon] [start] beg
+[EVENT] [Daemon] starting module HttpManager
+[EVENT] [StreamSDK] [startup] host:0.0.0.0:80 ec:操作成功完成。
+[EVENT] [Daemon] starting module UdpManager
+[DEBUG] [Daemon] [start] end
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 433)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = local_processing, ec = 操作成功完成。, bytes_transferred = 86)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = receiving_response_head, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 88)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 86)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_watch] (id = 0, status = stopped, ec = 由于线程退出或应用程序请求，已中止 I/O 操作。)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = receiving_request_head, ec = 提供的文件句柄无效。, bytes_transferred = 0)
+# [0000]                                                    |                |
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 345)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = local_processing, ec = 操作成功完成。, bytes_transferred = 86)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = receiving_response_head, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 88)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 86)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_watch] (id = 1, status = stopped, ec = 由于线程退出或应用程序请求，已中止 I/O 操作。)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = receiving_request_head, ec = 提供的文件句柄无效。, bytes_transferred = 0)
+# [0000]                                                    |                |
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 412)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/login
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = local_processing, ec = 操作成功完成。, bytes_transferred = 118)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = receiving_response_head, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 96)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:118 ec:操作成功完成。
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 118)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_watch] (id = 2, status = stopped, ec = 由于线程退出或应用程序请求，已中止 I/O 操作。)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = receiving_request_head, ec = 提供的文件句柄无效。, bytes_transferred = 0)
+# [0000]                                                    |                |
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 350)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = local_processing, ec = 操作成功完成。, bytes_transferred = 86)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = receiving_response_head, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 88)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 86)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_watch] (id = 3, status = stopped, ec = 由于线程退出或应用程序请求，已中止 I/O 操作。)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:07:57>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = receiving_request_head, ec = 提供的文件句柄无效。, bytes_transferred = 0)
+# [0000]                                                    |                |
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 

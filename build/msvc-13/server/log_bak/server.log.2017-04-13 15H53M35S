@@ -1,0 +1,59 @@
+<2017-04-13 15:53:05>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:80 ec:操作成功完成。
+<2017-04-13 15:53:12>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-13 15:53:12>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:0 ec:操作成功完成。
+<2017-04-13 15:53:12>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:12>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:12>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 15:53:12>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 15:53:12>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:12>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:17>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-13 15:53:17>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:58 ec:操作成功完成。
+<2017-04-13 15:53:17>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:17>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:17>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 15:53:17>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 15:53:17>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:53:17>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 

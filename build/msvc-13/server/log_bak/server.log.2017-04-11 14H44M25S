@@ -1,0 +1,13 @@
+<2017-04-11 14:41:54>
+[EVENT] [StreamSDK] Streamsdk ready.
+[EVENT] [StreamSDK] [start_server] Call
+[DEBUG] [Daemon] [start] beg
+[EVENT] [Daemon] starting module HttpManager
+[DEBUG] [Daemon] [start] end
+[EVENT] [StreamSDK] [stop_server] Call
+[DEBUG] [Daemon] [stop] beg
+[EVENT] [Daemon] shutdowning module HttpManager
+[DEBUG] [HttpSession] [on_error]  ec:由于线程退出或应用程序请求，已中止 I/O 操作。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+[DEBUG] [Daemon] [stop] end

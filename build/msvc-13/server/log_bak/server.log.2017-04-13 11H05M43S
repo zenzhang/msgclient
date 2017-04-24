@@ -1,0 +1,52 @@
+<2017-04-13 11:04:22>
+[EVENT] [StreamSDK] Streamsdk ready.
+[EVENT] [StreamSDK] [start_server] Call
+[DEBUG] [Daemon] [start] beg
+[EVENT] [Daemon] starting module HttpManager
+[EVENT] [StreamSDK] [startup] host:0.0.0.0:80 ec:操作成功完成。
+[EVENT] [Daemon] starting module UdpManager
+[DEBUG] [Daemon] [start] end
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 407)
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/
+<2017-04-13 11:04:27>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = local_processing, ec = support_method, bytes_transferred = 0)
+[DEBUG] [HttpSession] [on_error]  ec:support_method
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:04:28>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 107)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:0 ec:操作成功完成。
+<2017-04-13 11:04:28>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 0)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:04:28>
+[DEBUG] [HttpProxy] [handle_watch] (id = 0, status = exiting, ec = 操作成功完成。)
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:04:41>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = receiving_request_head, ec = End of file, bytes_transferred = 0)
+# [0000]                                                    |                |
+[DEBUG] [HttpSession] [on_error]  ec:End of file
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 11:04:41>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = receiving_request_head, ec = End of file, bytes_transferred = 0)
+# [0000]                                                    |                |
+[DEBUG] [HttpSession] [on_error]  ec:End of file
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 

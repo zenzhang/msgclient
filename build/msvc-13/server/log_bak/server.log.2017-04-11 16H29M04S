@@ -1,0 +1,6 @@
+<2017-04-11 16:28:36>
+[EVENT] [StreamSDK] Streamsdk ready.
+[EVENT] [StreamSDK] [start_server] Call
+[DEBUG] [Daemon] [start] beg
+[EVENT] [Daemon] starting module HttpManager
+[EVENT] [Daemon] starting module UdpManager

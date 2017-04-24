@@ -1,0 +1,93 @@
+<2017-04-18 14:58:42>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:8080 ec:操作成功完成。
+<2017-04-18 14:58:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:49>
+[EVENT] [HttpSession] [local_process] path:/login?name=aaa
+<2017-04-18 14:58:49>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:120 ec:操作成功完成。
+<2017-04-18 14:58:49>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:58:49>
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:58:49>
+[EVENT] [StreamSDK] [OnRZClientRoutePacket] host:127.0.0.1 port:17001
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+[EVENT] [UserManager] [OnZFriendListPacket] name:aaa
+<2017-04-18 14:58:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:54>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+<2017-04-18 14:58:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:58:59>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+<2017-04-18 14:59:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:59:04>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+<2017-04-18 14:59:06>
+[EVENT] [HttpSession] [local_process] path:/login?name=ccccc
+<2017-04-18 14:59:06>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:178 ec:操作成功完成。
+<2017-04-18 14:59:06>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:59:06>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:59:06>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-18 14:59:06>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-18 14:59:06>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:59:06>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 14:59:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:59:09>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+<2017-04-18 14:59:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:59:14>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+<2017-04-18 14:59:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:59:19>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+<2017-04-18 14:59:22>
+[EVENT] [UserManager] [handle_timer] enter
+[EVENT] [UserManager] [handle_timer] timeout user:ccccc
+<2017-04-18 14:59:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:59:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 14:59:37>
+[EVENT] [UserManager] [handle_timer] enter
+[EVENT] [UserManager] [handle_timer] timeout user:aaa
+<2017-04-18 14:59:39>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+[EVENT] [UserManager] [OnKeeplivePacket] not exist name:aaa
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+[EVENT] [UserManager] [OnKeeplivePacket] not exist name:aaa
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+[EVENT] [UserManager] [OnKeeplivePacket] not exist name:aaa
+<2017-04-18 14:59:39>
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+[EVENT] [UserManager] [OnKeeplivePacket] not exist name:aaa
+<2017-04-18 14:59:42>
+[EVENT] [UserManager] [handle_timer] enter

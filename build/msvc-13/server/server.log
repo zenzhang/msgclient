@@ -1,0 +1,21 @@
+<2017-04-18 15:09:52>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:8080 ec:操作成功完成。
+<2017-04-18 15:09:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-18 15:09:57>
+[EVENT] [HttpSession] [local_process] path:/login?name=aaa
+<2017-04-18 15:09:57>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:120 ec:操作成功完成。
+<2017-04-18 15:09:57>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 15:09:57>
+[EVENT] [HttpSession] [Close] 
+<2017-04-18 15:09:57>
+[EVENT] [StreamSDK] [OnRZClientRoutePacket] host:127.0.0.1 port:17001
+[EVENT] [UserManager] [OnKeeplivePacket] name:aaa
+[EVENT] [UserManager] [OnZFriendListPacket] name:aaa
+<2017-04-18 15:10:01>
+[EVENT] [HttpSession] [local_process] path:/login?name=ccccc

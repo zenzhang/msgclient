@@ -1,0 +1,106 @@
+<2017-04-13 10:59:26>
+[EVENT] [StreamSDK] Streamsdk ready.
+[EVENT] [StreamSDK] [start_server] Call
+[DEBUG] [Daemon] [start] beg
+[EVENT] [Daemon] starting module HttpManager
+[EVENT] [StreamSDK] [startup] host:0.0.0.0:80 ec:操作成功完成。
+[EVENT] [Daemon] starting module UdpManager
+[DEBUG] [Daemon] [start] end
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 433)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = local_processing, ec = bind_udp_port_failed, bytes_transferred = 124)
+[DEBUG] [HttpSession] [on_error]  ec:bind_udp_port_failed
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 116)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:124 ec:操作成功完成。
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 0, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 124)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_watch] (id = 0, status = exiting, ec = 操作成功完成。)
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 345)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = local_processing, ec = bind_udp_port_failed, bytes_transferred = 124)
+[DEBUG] [HttpSession] [on_error]  ec:bind_udp_port_failed
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 116)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:124 ec:操作成功完成。
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_async] (id = 1, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 124)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:38>
+[DEBUG] [HttpProxy] [handle_watch] (id = 1, status = exiting, ec = 操作成功完成。)
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 4, status = stopped, ec = 操作成功完成。, bytes_transferred = none)
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 412)
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/login
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = local_processing, ec = not_name_param, bytes_transferred = 118)
+[DEBUG] [HttpSession] [on_error]  ec:not_name_param
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 116)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:118 ec:操作成功完成。
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 2, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 118)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_watch] (id = 2, status = exiting, ec = 操作成功完成。)
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = receiving_request_head, ec = 操作成功完成。, bytes_transferred = 350)
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = preparing, ec = 操作成功完成。, bytes_transferred = false)
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = transferring_request_data, ec = 操作成功完成。, bytes_transferred = none)
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = local_processing, ec = bind_udp_port_failed, bytes_transferred = 124)
+[DEBUG] [HttpSession] [on_error]  ec:bind_udp_port_failed
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = sending_response_head, ec = 操作成功完成。, bytes_transferred = 116)
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:124 ec:操作成功完成。
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_async] (id = 3, status = transferring_response_data, ec = 操作成功完成。, bytes_transferred = 124)
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 10:59:50>
+[DEBUG] [HttpProxy] [handle_watch] (id = 3, status = exiting, ec = 操作成功完成。)
+[EVENT] [HttpSession] [Close] 

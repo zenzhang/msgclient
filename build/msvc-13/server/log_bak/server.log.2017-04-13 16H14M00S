@@ -1,0 +1,33 @@
+<2017-04-13 15:55:13>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:80 ec:操作成功完成。
+<2017-04-13 15:55:25>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang
+<2017-04-13 15:55:25>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:0 ec:操作成功完成。
+<2017-04-13 15:55:25>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:55:25>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:55:25>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-13 15:55:25>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-13 15:55:25>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:55:25>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-13 15:55:45>
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang

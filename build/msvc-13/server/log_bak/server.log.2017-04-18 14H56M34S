@@ -1,0 +1,185 @@
+<2017-04-14 15:20:07>
+[DEBUG] [StreamSDK] StreamSDK::StreamSDK
+[EVENT] [HttpManager] [startup] host:0.0.0.0:80 ec:操作成功完成。
+<2017-04-14 15:20:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:29>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang2
+<2017-04-14 15:20:29>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:127 ec:操作成功完成。
+<2017-04-14 15:20:29>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:29>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:29>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-14 15:20:29>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-14 15:20:29>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:29>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:32>
+[EVENT] [HttpSession] [local_process] path:/login?name=zenzhang1
+<2017-04-14 15:20:32>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:177 ec:操作成功完成。
+<2017-04-14 15:20:32>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:32>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:32>
+[EVENT] [HttpSession] [local_process] path:/favicon.ico
+<2017-04-14 15:20:32>
+[EVENT] [HttpSession] [transfer_response_data] 
+[DEBUG] [HttpSession] [write] msg size:86 ec:操作成功完成。
+<2017-04-14 15:20:32>
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:32>
+[DEBUG] [HttpSession] [on_error]  ec:提供的文件句柄无效。
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [on_finish] 
+[EVENT] [HttpSession] [Close] 
+[EVENT] [HttpSession] [Close] 
+<2017-04-14 15:20:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:37>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:42>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:47>
+[EVENT] [UserManager] [handle_timer] enter
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang1
+[EVENT] [UserManager] [handle_timer] timeout user:zenzhang2
+<2017-04-14 15:20:56>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:20:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:37>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:42>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:21:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:37>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:42>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:22:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:37>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:42>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:23:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:17>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:22>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:27>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:32>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:37>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:42>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:47>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:52>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:24:57>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:25:02>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:25:07>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:25:12>
+[EVENT] [UserManager] [handle_timer] enter
+<2017-04-14 15:25:17>
+[EVENT] [UserManager] [handle_timer] enter
