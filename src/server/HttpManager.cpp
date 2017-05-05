@@ -16,7 +16,7 @@ namespace streamsdk
     HttpManager::HttpManager(boost::asio::io_service & io_svc)
         : util::protocol::HttpProxyManager<HttpSession, HttpManager>(io_svc)
         , io_svc_(io_svc)
-        , addr_("0.0.0.0:8080")
+        , addr_("0.0.0.0:8081")
     {
 
     }

@@ -234,7 +234,7 @@ namespace streamsdk
         std::map<std::string, UserInfo>::iterator iter = users_.begin();
         while (iter != users_.end())
         {
-            if (tick_count - iter->second.tick_count > 3 * TIMER_INVETER)
+            if (tick_count - iter->second.tick_count > 6 * TIMER_INVETER)
             {
                 LOG_S(Logger::kLevelEvent, "[handle_timer] timeout user:" << iter->first);
                 std::cout << "[handle_timer] timeout user:" << iter->first << std::endl;

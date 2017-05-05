@@ -26,7 +26,7 @@ namespace streamsdk
         testConfig.profile().set("LogStream0", "file", "server.log");
         testConfig.profile().set("LogStream0", "append", "false");
         testConfig.profile().set("LogStream0", "level", "5");
-        testConfig.profile().set("LogStream0", "size", "0");
+        testConfig.profile().set("LogStream0", "size", "1024");
         framework::logger::global_logger().load_config(testConfig);
         LOG_S(Logger::kLevelDebug, "StreamSDK::StreamSDK");
 	}

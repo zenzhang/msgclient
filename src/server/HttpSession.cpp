@@ -21,7 +21,7 @@ namespace streamsdk
 #ifdef WIN32
 #define reponse_format "{\"code\": %d,\"message\" : \"%s\",\"server\" : \"127.0.0.1\",\"friends\": [%s] }"
 #else
-#define reponse_format "{\"code\": %d,\"message\" : \"%s\",\"server\" : \"120.92.160.186\",\"friends\": [%s] }"
+#define reponse_format "{\"code\": %d,\"message\" : \"%s\",\"server\" : \"123.207.220.40\",\"friends\": [%s] }"
 #endif
 //reponse_user_format(name,ip,port,nat)
 #define reponse_user_format "{\"name\": \"%s\",\"ip\" : %ld,\"port\": %d,\"nat\":%d}"
